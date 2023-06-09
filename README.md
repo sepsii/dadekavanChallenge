@@ -1,27 +1,32 @@
-# Dadekavanchallenge
+# Knauf Coding challenge
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.5.
+Write a nextjs application in typescript with the follow requirements:
 
-## Development server
+- List of blog post (visualize title and author email, it's important to show the email and not the name)
+- Detail of a blog post, so show title, body, information about the author (name, username,email and website) and the list of associated comment.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+⚠️ **Please send us the repository link so that we can check it**
 
-## Code scaffolding
+## API Resources
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+POSTS: https://jsonplaceholder.typicode.com/posts
 
-## Build
+USERS: https://jsonplaceholder.typicode.com/users
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+COMMENTS: https://jsonplaceholder.typicode.com/comments
 
-## Running unit tests
+## Area of focus
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Please focus to create a clean and structured typescript code.
+Use the best practice to create components and share states.
 
-## Running end-to-end tests
+## What we will look at
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- We want to see how you write and manage code (name structure of the folders, usage of interfaces, naming conventions)
+- How you write components, the correct usage of hooks and to have an eye on performance
+- How you set up the state, if you use a library like redux or the context api and be ready to motivate it
+- BONUS: unit tests
 
-## Further help
+## Timing
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Considering the brevity of the application we expect this to be done by noon the next day (limit 12.00)
