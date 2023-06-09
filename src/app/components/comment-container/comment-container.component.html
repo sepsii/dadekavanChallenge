@@ -1,0 +1,10 @@
+<div class="comment_container">
+  <div>
+    <h2>comments</h2>
+  </div>
+  <div class="comment_container__comment_section">
+    <div *ngFor="let comment of comments">
+      <app-comment [commentData]="comment"></app-comment>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+.comment_container {
+  padding: 24px 0px;
+  h2 {
+    font-size: 32px;
+    color: #333;
+  }
+  &__comment_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+}

@@ -1,0 +1,14 @@
+<div class="comment">
+  <img
+    class="comment__image"
+    [src]="
+      'https://ui-avatars.com/api/?name=' +
+      commentData.name +
+      '&background=e1e1e1'
+    "
+  />
+  <div class="comment__data">
+    <div class="comment__name">{{ commentData.name }}</div>
+    <div class="comment__body">{{ commentData.body }}</div>
+  </div>
+</div>

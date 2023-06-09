@@ -1,0 +1,18 @@
+<div class="blog_List__item">
+  <h3>
+    {{ blogListItemData.authorEmail ? blogListItemData.authorEmail : "" }}
+  </h3>
+  <h1>{{ blogListItemData.blogTitle ? blogListItemData.blogTitle : "" }}</h1>
+  <p>
+    {{
+      blogListItemData.blogBody
+        ? (blogListItemData.blogBody | textLimitPipe : 90)
+        : ""
+    }}
+  </p>
+  <a
+    (click)="navigateToNewComponent(blogListItemData)"
+    class="blog_List__item__btn"
+    >Read More</a
+  >
+</div>

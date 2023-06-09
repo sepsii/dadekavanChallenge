@@ -1,0 +1,22 @@
+<div *ngIf="loading">
+  <app-loading></app-loading>
+</div>
+
+<div class="blog">
+  <div class="blog__article">
+    <div class="test">
+      <div>
+        <h2>{{ blogData.blogTitle }}</h2>
+        <h3>
+          Posted by <span>{{ blogData.authorUsername }}</span>
+        </h3>
+      </div>
+      <app-author-card [authorData]="authorData"></app-author-card>
+    </div>
+    <p class="firstpara">
+      <span class="firstcharacter">{{ blogData.blogBody.charAt(0) }}</span>
+      {{ blogData.blogBody.slice(1).repeat(10) }}
+    </p>
+  </div>
+  <app-comment-container [comments]="blogData.comments"></app-comment-container>
+</div>

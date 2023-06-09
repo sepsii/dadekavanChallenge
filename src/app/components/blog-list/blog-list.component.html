@@ -1,0 +1,9 @@
+<div *ngIf="loading">
+  <app-loading></app-loading>
+</div>
+
+<div *ngIf="!loading" class="blog_list">
+  <div class="blog_list__items_wrapper" *ngFor="let item of blogItems">
+    <app-blog-list-item [blogListItemData]="item"></app-blog-list-item>
+  </div>
+</div>

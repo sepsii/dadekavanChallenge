@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: "PlayFair";
+  src: url("../src/assets/fonts/Playfair-VariableFont_opsz\,wdth\,wght.ttf")
+      format("ttf"),
+    url("../src/assets/fonts/Playfair-Italic-VariableFont_opsz\,wdth\,wght.ttf")
+      format("ttf");
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

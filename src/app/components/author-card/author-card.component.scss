@@ -1,0 +1,22 @@
+.author_card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  &__title {
+    color: #333;
+    font-size: 18px;
+  }
+  &__information {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #555;
+    border-radius: 12px;
+    max-width: 250px;
+    padding: 12px;
+    color: #555;
+  }
+}
